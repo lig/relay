@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/k8s-libsonnet.git",
+          "subdir": ""
+        }
+      },
+      "version": "291653b2c17d03e855e7e00ce0e4ec25502b2ce2",
+      "sum": "xhulOaCsoVEjm4fqtty0pwqX5CXm6ftA9LiG9EBrDxI="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/xtd.git",
+          "subdir": ""
+        }
+      },
+      "version": "4eee017d21cb63a303925d1dcd9fc5c496809b46",
+      "sum": "Kh0GbIycNmJPzk6IOMXn1BbtLNyaiiimclYk7+mvsns="
+    }
+  ],
+  "legacyImports": false
+}

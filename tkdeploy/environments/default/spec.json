@@ -1,0 +1,10 @@
+{
+  "apiServer": "https://kubernetes.example.com",
+  "namespace": "chatmail",
+  "name": "default",
+  "team": "chatmail",
+  "requiresNamespace": true,
+  "expectVersions": {
+    "kubernetesVersion": "1.28"
+  }
+}

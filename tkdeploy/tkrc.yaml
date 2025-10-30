@@ -1,0 +1,9 @@
+apiVersion: tanka.dev/v1alpha1
+environment:
+  # Default environment path (overridden with --environment)
+  path: environments/default
+spec:
+  apiServer: https://kubernetes.example.com
+  namespace: chatmail
+  expectVersions:
+    kubernetesVersion: "1.28"

@@ -186,6 +186,18 @@ The components of chatmail are:
 
 - and the chatmaild services, explained in the next section:
 
+### tkdeploy
+
+`tkdeploy/` contains an experimental Tanka/Jsonnet workflow that mirrors the
+services installed by `cmdeploy`. It bootstraps a Jsonnet library, Kubernetes
+component stubs, container-image scaffolding, and helper scripts for converting
+`chatmail.ini` into environment values. Use `tkdeploy/scripts/tkdeploy` for
+`tk` commands and `tkdeploy/scripts/lint.sh` to fmt or reinstall Jsonnet
+dependencies. The Kubernetes manifests target the same stack—Postfix, Dovecot,
+nginx, acmetool, OpenDKIM, chatmaild workers, IROH relay, TURN, mtail, and web
+assets—so operators can plan cluster-based deployments alongside the existing
+bare-metal playbook.
+
 ### chatmaild
 
 `chatmaild` implements various systemd-controlled services  
